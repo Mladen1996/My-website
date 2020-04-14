@@ -35,7 +35,7 @@ body{
 .navbar-nav li a{
     color: white!important;
     font-weight: 600;
-    float: right;
+    float:left;
     text-align: left;
 }
 
@@ -46,6 +46,7 @@ body{
 
 .navbar-toggler{
     outline: none!important;
+    border:none!important;
 }
 
 /*----------------banner-------*/
@@ -262,15 +263,6 @@ body{
     transform: translateY(-5px);
 }
 
-@media only screen and (max-width: 600px) {
-    .main {
-      width: 75%;
-    }
-  
-    .shadowOne{
-        width: 40%;
-    }
-  }
 
 /*-----------resume-------*/
 
@@ -508,8 +500,20 @@ body{
 
 
 @media only screen and (max-width: 600px) {
+    .navbar{
+        padding: 0!important;
+        padding-top: 10px!important;
+    }
     .navbar-brand h1{
         font-size:35px;
+    }
+    .navbar-nav{
+        background: white;
+        margin:0!important;
+    }
+
+    .navbar-nav li a{
+        color:rgba(29,64,186,1)!important;
     }
 
     #banner .row{
@@ -532,12 +536,31 @@ body{
         padding-bottom: 30px;
     }
 
+    #email{
+        font-size:12px;
+    }
     #projects .card img{
        display: block;
        margin-left: auto;
        margin-right: auto;
        width: 80%;
     }
+
+    .main {
+        width: 75%;
+        left:25%;
+      }
+      .shadowOne{
+          width: 40%;
+      }
+
+      .aboutmeImage{
+          width: 100%;
+      }
+
+      #contact .mail{
+          font-size: 20px;
+      }
 
   
   }
