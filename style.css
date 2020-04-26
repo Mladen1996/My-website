@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif!important;
 }
@@ -530,10 +532,14 @@ body{
         padding-top: 30px;
     }
     #banner .promo-title{
-        font-size: 38px;
+        font-size: 32px;
     }
     #banner button{
         padding-bottom: 30px;
+    }
+    #banner .buttons{
+        margin:0 auto;
+        width: 100%;
     }
 
     #email{
