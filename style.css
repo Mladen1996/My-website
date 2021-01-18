@@ -17,7 +17,7 @@ body{
 }
 
 .navbar{
-    background: linear-gradient(90deg, rgba(148,150,244,1) 0%, rgba(29,64,186,1) 50%);
+    background: #03989e;
     padding: 10px!important;
 }
 
@@ -54,12 +54,12 @@ body{
 /*----------------banner-------*/
 
 #banner{
-    background: linear-gradient(90deg, rgba(148,150,244,1) 0%, rgba(29,64,186,1) 50%);
+    background: #03989e;
     color: white;
     padding-top: 5%;
 }
 .img-fluid{
-    border: 8px solid rgba(255, 255, 255, .3);
+    border: 8px solid rgba(255, 255, 255, .8);
     border-radius: 50%;
     width: 240px;
 }
@@ -107,7 +107,7 @@ body{
 }
 #aboutme h1::before{
     content: '';
-    background: rgba(29,64,186,1);
+    background: #03989e;
     height: 5px;
     width: 200px;
     margin-left: auto;
@@ -118,7 +118,7 @@ body{
 
 #aboutme h1::after{
     content: '';
-    background: rgba(29,64,186,1);
+    background: #03989e;
     height: 10px;
     width: 50px;
     margin-left: auto;
@@ -142,7 +142,7 @@ body{
 
 #skills h1::before{
     content: '';
-    background: rgba(29,64,186,1);
+    background: #03989e;
     height: 5px;
     width: 200px;
     margin-left: auto;
@@ -153,7 +153,7 @@ body{
 
 #skills h1::after{
     content: '';
-    background: rgba(29,64,186,1);
+    background: #03989e;
     height: 10px;
     width: 50px;
     margin-left: auto;
@@ -180,7 +180,8 @@ body{
     position: absolute;
     bottom: 0;
     z-index: 1;
-    box-shadow: 0px 0px 20px -15px #030380;
+    box-shadow: 0px 0px 20px -15px #03989e;
+    
     transition: transform 0.8s;
 }
 
@@ -190,7 +191,7 @@ body{
     border-radius: 50%;
     margin: -90px auto 0;
     background: #E5E5E5;
-    border: 10px solid #007bff;
+    border: 10px solid #03989e;
    
 }
 
@@ -211,7 +212,7 @@ body{
     content: '';
     width: 40px;
     height: 30px;
-    background: linear-gradient(to right, white , #007bff);
+    background: linear-gradient(to right, white , #03989e);
     position: absolute;
     right: -5px;
     top:-5px;
@@ -222,7 +223,7 @@ body{
     content: '';
     width: 40px;
     height: 30px;
-    background: linear-gradient(to right, #007bff , white);
+    background: linear-gradient(to right, #03989e , white);
     position: absolute;
     left: -5px;
     bottom:-5px;
@@ -238,7 +239,7 @@ body{
     bottom: 0;
     left: 10%;
     z-index:-1;
-    box-shadow: 0px 0px 20px -15px #030380;
+    box-shadow: 0px 0px 20px -15px #03989e;
     transition: transform 0.8s;
 }
 
@@ -302,7 +303,7 @@ body{
 
 .timeline li h4{
 
-    background-color:rgba(29,64,186,1);
+    background-color:#03989e;
     padding:5px 0px 5px 20px;
     color: #fff;
     font-size: 15px;
@@ -329,7 +330,7 @@ body{
 
 #resume h2::before{
     content: '';
-    background: rgba(29,64,186,1);
+    background: #03989e;
     height: 5px;
     width: 200px;
     margin-left: auto;
@@ -340,7 +341,7 @@ body{
 
 #resume h2::after{
     content: '';
-    background: rgba(29,64,186,1);
+    background: #03989e;
     height: 10px;
     width: 50px;
     margin-left: auto;
@@ -352,9 +353,14 @@ body{
 
 
 /*-----------------projects----------------*/
+#projects{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 #projects h1::before{
     content: '';
-    background: rgba(29,64,186,1);
+    background:#03989e;
     height: 5px;
     width: 200px;
     margin-left: auto;
@@ -365,7 +371,7 @@ body{
 
 #projects h1::after{
     content: '';
-    background: rgba(29,64,186,1);
+    background:#03989e;
     height: 10px;
     width: 50px;
     margin-left: auto;
@@ -385,7 +391,7 @@ body{
     width: 200px;
     border-radius: 30px;
     border: 2px solid #fff;
-    background: rgba(29,64,186,1);
+    background: #03989e;
     margin: 0 auto;
 }
 
@@ -409,7 +415,7 @@ body{
 }
 
 #projects .modal-header {
-    background: rgba(29,64,186,1);
+    background: #03989e;
     color: white;
 }
 #projects .modal-header button{
@@ -418,7 +424,7 @@ body{
 /*---------------contact-------------*/
 
 #contact{
-    background: linear-gradient(90deg, rgba(148,150,244,1) 0%, rgba(29,64,186,1) 50%);
+    background: #03989e;
     color: white;
 }
 
